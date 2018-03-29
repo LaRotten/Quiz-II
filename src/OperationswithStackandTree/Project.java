@@ -1,6 +1,6 @@
 package OperationswithStackandTree;
 
-import java.util.ArrayList;
+
 
 class Node{
 	String data;
@@ -109,13 +109,9 @@ class Tree{
 		else {
 			System.out.println();
 			System.out.println("The Result : "+ x);
+			
 		}
 	}
-	
-	
-	
-	
-	
 	
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -126,8 +122,8 @@ public class Project {
 	public static void main(String []args) {
 		Stack o=new Stack();
 		Tree t=new Tree();
-		
-		String s="3 2 + 2 * ";
+		 
+		String s="3 2 + 2 * 3 / 15 + 3 *";
 		String[] tokens =s.split(" +");
 		System.out.print("Tokens  : ");
 		for(int i=0;i<tokens.length;i++) {
